@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+.nav-link {
+  color: black;
+}
+.nav-item {
+  text-align: center;
+}
+.nav__academia {
+  background-color: #ffe60d;
+}
+.main {
+  /* height: 500px; */
+  background-image: url("./dislexia.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.migas_pan {
+  padding: 25px;
+  color: white;
+}
+.migas_pan a {
+  color: white;
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 25px;
+  margin: 20px 0;
+}
+.main__content h3 {
+  margin: 15px 0;
+}
+.sub_Content {
+  padding: 0 25px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.sub_Content a {
+  text-decoration: none;
+  color: white;
+}
+.Ejercicios_guiadas {
+  width: 250px;
+  height: 200px;
+  background-image: url(./guiados.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Juego_interactivo {
+  width: 250px;
+  height: 200px;
+  background-image: url(./interactivo2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Scattergories {
+  width: 250px;
+  height: 200px;
+  background-image: url(./scattergories.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Diferencias {
+  width: 250px;
+  height: 200px;
+  background-image: url(./diferencias.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    height: 100vh;
+  }
+  .main__content {
+    padding: 0 40px;
+  }
+  .sub_Content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+}
+@media (min-width: 991px) {
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  .navbar {
+    height: 100px;
+  }
+  .container-fluid {
+    padding: 0 50px;
+  }
+  .nav-item {
+    width: 150px;
+  }
+  .nav__academia {
+    border-radius: 25px;
+  }
+}
+@media (min-width: 1280px) {
+  .main {
+    height: 100vh;
+  }
+  .main__content {
+    flex-direction: column;
+    padding: 0 100px;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main {
+    height: 100vh;
+  }
+  .main__content {
+    padding: 0 100px;
+    width: 100%;
+    justify-content: space-around;
+  }
+}

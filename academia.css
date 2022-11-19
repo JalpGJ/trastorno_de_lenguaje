@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+.nav-link {
+  color: black;
+}
+.nav-item {
+  text-align: center;
+}
+.nav__academia {
+  background-color: #ffe60d;
+}
+.main {
+  /* height: 500px; */
+  background-image: url("./academy__back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 25px;
+}
+.main__content--right {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.content--right__title {
+  font-weight: bold;
+  margin: 0;
+  margin-top: 20px;
+}
+.main__content--left {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content--left__receptivo {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("./dislexia.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+}
+.content--left__expresivo {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("./academia__expresivo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+}
+.content--left__mixto {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("./academia__mixto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+}
+.content--left__receptivo:hover {
+  color: #ffe60d;
+}
+.content--left__expresivo:hover {
+  color: #ffe60d;
+}
+.content--left__mixto:hover {
+  color: #ffe60d;
+}
+@media (min-width: 768px) {
+  .main {
+    height: 100vh;
+  }
+  .main__content {
+    padding: 0 40px;
+  }
+  .main__content--right {
+    height: 300px;
+  }
+  .content--right__title {
+    margin: 0;
+  }
+  .main__content--left {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-around;
+  }
+  .left__receptivo--title {
+    font-size: 20px;
+  }
+  .left__expresivo--title {
+    font-size: 20px;
+  }
+  .left__mixto--title {
+    font-size: 20px;
+  }
+  .content--right__title {
+    font-size: 30px;
+  }
+}
+@media (min-width: 991px) {
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  .navbar {
+    height: 100px;
+  }
+  .container-fluid {
+    padding: 0 50px;
+  }
+  .nav-item {
+    width: 150px;
+  }
+  .nav__academia {
+    border-radius: 25px;
+  }
+  .content--left__receptivo {
+    width: 360px;
+    height: 240px;
+  }
+  .content--left__expresivo {
+    width: 360px;
+    height: 240px;
+  }
+  .content--left__mixto {
+    width: 360px;
+    height: 240px;
+  }
+  .main__content--left {
+    height: 600px;
+    margin: 0;
+  }
+  @media (min-width: 1280px) {
+    .main {
+      height: 100vh;
+    }
+    .main__content {
+      flex-direction: row-reverse;
+      padding: 0 100px;
+      width: 100%;
+      justify-content: space-around;
+    }
+    .main__content--right {
+      width: 600px;
+    }
+    .main__content--left {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      height: 800px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .main {
+      height: 100vh;
+    }
+    .main__content {
+      flex-direction: row-reverse;
+      padding: 0 100px;
+      width: 100%;
+      justify-content: space-around;
+    }
+    .main__content--right {
+      width: 600px;
+    }
+    .main__content--left {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      height: 800px;
+    }
+  }
+}
